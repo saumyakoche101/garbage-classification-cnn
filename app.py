@@ -26,7 +26,7 @@ if uploaded_file is not None:
 
     img = Image.open(uploaded_file)
 
-    st.image(img, caption="Uploaded Image", use_container_width=True)
+    st.image(img, caption="Uploaded Image")
 
     img = img.resize((150,150))
 
