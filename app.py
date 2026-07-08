@@ -42,6 +42,6 @@ if uploaded_file is not None:
 
     confidence = np.max(prediction) * 100
 
-    st.success(f"Prediction : {predicted_class}")
-
-    st.info(f"Confidence : {confidence:.2f}%")
+    st.success(f"♻️ Predicted Category: {predicted_class.capitalize()}")
+    
+st.info(f"🎯 Confidence: {confidence:.2f}%")
