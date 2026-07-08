@@ -13,7 +13,9 @@ classes = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
 
 st.set_page_config(page_title="Garbage Classification", page_icon="♻️")
 
-st.title("♻️ Garbage Classification using CNN")
+st.title("♻️ Smart Garbage Classification System")
+
+st.markdown("### AI-Powered Waste Segregation using Convolutional Neural Networks")
 
 st.write("Upload an image to predict the garbage category.")
 
